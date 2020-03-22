@@ -1,35 +1,13 @@
-div  {
-  margin: 1em;
-  border: 2px solid brown;
-  width: 50%;
-  height: 5em;
-  text-align: center;
-  line-height: 5em;
-  background-color: rgb(238, 128, 50);
-  color: white;
-  font-size: 20px;
+
+
+
+.test {
+  width: 300px;
+  height: 150px;
+  background-color: cornflowerblue;
 }
 
-fieldset {
-  background: rgb(185, 255, 249);
-  width: 50%;
-  margin: 1em;
-}
-
-fieldset  input{
-  width: calc(100% - 3em);
-  margin: 1em;
-}
-
-.pink {
-  color: pink;
-}
-
-.change-color  {
-  color: aqua;
-  background-color: rgb(196, 16, 16);
-}
-
-.active {
-  box-shadow: 0 0 15px blue;
+.green-bg  
+{
+  background-color: green;
 }
