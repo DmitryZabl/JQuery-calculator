@@ -4,13 +4,31 @@
   margin: 2px 0px;
 }
 
-.green  {
-  color: #43A847;
+.green {
+  color: #43a847;
 }
 
-h1  {
+/* h1 {
   border: 3px solid red;
-}
-.delete-border  {
+} */
+
+.delete-border {
   border: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex li:first-child  {
+  order: 1;
+}
+.flex li:nth-child(2)  {
+  order: 4;
+}
+.flex li:nth-child(3) {
+  order: 3;
+}
+.flex li:nth-child(4)  {
+  order: 2;
 }
