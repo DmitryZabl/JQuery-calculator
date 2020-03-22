@@ -1,34 +1,35 @@
-.selected {
-  border: 2px solid red;
-  padding: 5px;
-  margin: 2px 0px;
+div  {
+  margin: 1em;
+  border: 2px solid brown;
+  width: 50%;
+  height: 5em;
+  text-align: center;
+  line-height: 5em;
+  background-color: rgb(238, 128, 50);
+  color: white;
+  font-size: 20px;
 }
 
-.green {
-  color: #43a847;
+fieldset {
+  background: rgb(185, 255, 249);
+  width: 50%;
+  margin: 1em;
 }
 
-/* h1 {
-  border: 3px solid red;
-} */
-
-.delete-border {
-  border: none;
+fieldset  input{
+  width: calc(100% - 3em);
+  margin: 1em;
 }
 
-.flex {
-  display: flex;
+.pink {
+  color: pink;
 }
 
-.flex li:first-child  {
-  order: 1;
+.change-color  {
+  color: aqua;
+  background-color: rgb(196, 16, 16);
 }
-.flex li:nth-child(2)  {
-  order: 4;
-}
-.flex li:nth-child(3) {
-  order: 3;
-}
-.flex li:nth-child(4)  {
-  order: 2;
+
+.active {
+  box-shadow: 0 0 15px blue;
 }
