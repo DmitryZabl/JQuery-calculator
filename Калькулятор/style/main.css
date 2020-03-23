@@ -1,13 +1,39 @@
-section {
-  width: 300px;
+.img-holder {
+  width: 150px;
   margin: 0 auto;
-  background-color: rgb(175, 238, 217);
+}
+img {
+  width: 100%;
 }
 
-form  {
+.toggles  {
+  width: 300px;
+  margin: 30px auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.toggle1, 
+.toggle2,
+.toggle3  {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.toggle1  {
+  color: aliceblue;
+  background-color: brown;
+}
+
+.toggle2  {
+  color: aqua;
+  background-color: darkgoldenrod;
+}
+
+.toggle3  {
+  color: blueviolet;
+  background-color: chartreuse;
 }
