@@ -8,24 +8,48 @@
     <link rel="stylesheet" href="style/normalize.css" />
   </head>
   <body>
-    <div id="test-box" class="test-box"></div>
-    <p id="text-block1" class="text">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
-      exercitationem beatae laudantium sunt et perspiciatis dolor tempore quam
-      aperiam facilis culpa quibusdam quis est, vitae at tempora rem placeat
-      molestiae.
-    </p>
-    <section id="external-block" class="wrapper">
-      <div id="internal-block" class="container">
-        <p id="text-block2" class="inner">
-          Lorem ipsum dolor sit, amet consectetur adipisicing А elit. Tempore,
-          dignissimos! Cum sapiente itaque rerum, perferendis modi porro numquam
-          ipsa repellendus quaerat eligendi natus facere aliquid non doloribus
-          quidem. Qui, dicta.
+    <div class="info-wrapper">
+      <section class="show-info">
+        <h2 class="show-info__title" id="show-info__title">Pepsi</h2>
+        <p class="show-info__container">
+          <span id="show-info__capacity" class="show-info__capacity">1.4 л. (100 л. с.)</span>
+          <span id="show-info__transmission" class="show-info__transmission">Ручная</span>
+          <span id="show-info__equipment" class="show-info__equipment">Active</span>
         </p>
+        <p class="show-info__dollars" id="show-info__dollars">123123</p>
+        <p class="show-info__rubls" id="show-info__rubls">123123</p>
+        <button class="show-info__take" id="show-info__take">Заказать</button>
+      </section>
+      <div class="car-img-container">
+        <img src="img/img1.jpg" alt="pepsi" />
       </div>
+    </div>
+    <section class="choise-setings">
+      <h2 class="choise-setings__title">Выберите настройки автомобиля:</h2>
+      <div class="choise-setings__container">
+      <div class="choise-engine choise-setings__column">
+        <h3>Двигатель</h3>
+        <p><input type="radio" name="engine" id="engine-1-4"><label for="engine-1-4">1.4 л. (100 л. с.)</label></p>
+        <p><input type="radio" name="engine" id="engine-1-6"><label for="engine-1-6">1.6 л. (123 л. с.)</label></p>
+      </div>
+      <div class="choise-transmission choise-setings__column">
+        <h3>Коробка передач</h3>
+        <p><input type="radio" name="transmission" id="transmission-hand"><label for="transmission-hand">Ручная</label></p>
+        <p><input type="radio" name="transmission" id="transmission-auto"><label for="transmission-auto">Автомат</label></p>
+      </div>
+      <div class="choise-equipment choise-setings__column">
+        <h3>Пакет (дополнительные опции)</h3>
+        <p><input type="radio" name="equipment" id="equipment-active"><label for="equipment-active">Active</label></p>
+        <p><input type="radio" name="equipment" id="equipment-comfort"><label for="equipment-comfort">Comfort</label></p>
+        <p><input type="radio" name="equipment" id="equipment-active-plus"><label for="equipment-active-plus">Active Plus</label></p>
+      </div>
+    </div>
     </section>
-
+    <section class="choise-car">
+      <div id="choise-car__pepsi" class="choise-car__pepsi choise-car__item">Pepsi</div>
+      <div id="choise-car__ferrari" class="choise-car__ferrari choise-car__item">Ferarri</div>
+      <div id="choise-car__audi" class="choise-car__audi choise-car__item">Audi</div>
+    </section>
     <script src="libs/JQuery/jquery-3.4.1.min.js"></script>
     <script src="js/main.js"></script>
   </body>

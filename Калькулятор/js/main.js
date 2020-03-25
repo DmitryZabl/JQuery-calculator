@@ -20,7 +20,7 @@ $(document).ready(function(){
   }) */
 
 
-  $('#test-box').on('click', function() {
+/*   $('#test-box').on('click', function() {
     let $cloneElement = $(this).clone();
     $cloneElement.toString  = function  ()  {
       return 'это клон';
@@ -28,7 +28,7 @@ $(document).ready(function(){
     $cloneElement.empty().html('[e[e[e[e')
     $(this).after($cloneElement);
    
-  })
+  }) */
   //$('#text-block2').unwrap().unwrap();
 
   

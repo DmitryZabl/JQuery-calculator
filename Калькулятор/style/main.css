@@ -1,28 +1,46 @@
-*, *::before, *::after  {
+*, *::before, *::after{
   box-sizing: border-box;
 }
 
-
-.test-box {
-  width: 400px;
-  height: 200px;
-  border: 2px solid green;
-  margin: 0 auto 30px;
-}
-.text {
-  width: 400px;
-  margin: 0 auto;
+img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
 }
 
-.wrapper  {
-  width: 400px;
-  height: 200px;
-  padding: 10px 10px 20px;
-  border: 2px solid green;
-  margin: 20px auto 0;
+.info-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 1em;
+}
+.car-img-container  {
+  width: 50%;
 }
 
-.container  {
-  border: 2px solid blue;
-  padding: 10px;
+.choise-setings__container  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choise-setings {
+  margin: 1em;
+}
+
+.choise-setings__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.choise-car  {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 1em;
+}
+
+.choise-car__item {
+  border: 2px solid black;
+  padding: .5em;
+  border-radius: 1.5em;
 }
