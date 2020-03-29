@@ -1,11 +1,14 @@
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 img {
   display: block;
-  width: 100%;
-  overflow: hidden;
+  height: 100%;
 }
 
 .info-wrapper {
@@ -13,34 +16,62 @@ img {
   flex-direction: row-reverse;
   justify-content: space-between;
   margin: 1em;
+  margin-right: 30vw;
 }
-.car-img-container  {
-  width: 50%;
+.car-img-container {
+  height: 50vh;
 }
 
-.choise-setings__container  {
+.choise-settings {
+  margin: 1em;
+  margin-right: 30vw;
+}
+
+.choise-settings__container {
   display: flex;
   justify-content: space-between;
 }
 
-.choise-setings {
-  margin: 1em;
-}
-
-.choise-setings__column {
+.choise-settings__column {
   display: flex;
   flex-direction: column;
 }
 
-.choise-car  {
+.choise-car {
   display: flex;
   justify-content: space-between;
-  width: 50%;
   margin: 1em;
+  margin-right: 30vw;
 }
 
 .choise-car__item {
   border: 2px solid black;
-  padding: .5em;
+  padding: 0.5em;
   border-radius: 1.5em;
+  cursor: pointer;
 }
+.choise-car__item:active  {
+  background-color: #fff;
+  color: black;
+}
+.choise-car__item--choised  {
+  box-shadow: 0 0 25px 10px yellow;
+}
+.choise-car__pepsi {
+  color: rgb(110, 64, 64);
+  background-color: rgb(202, 192, 192);
+  border-color: rgb(90, 90, 90);
+}
+
+.choise-car__ferrari {
+  color: rgb(235, 255, 123);
+  background-color: rgb(221, 6, 6);
+  border-color: rgb(146, 2, 2);
+}
+
+.choise-car__audi {
+  color: rgb(119, 33, 33);
+  background-color: rgb(255, 31, 31);
+  border-color: rgb(24, 1, 1)
+}
+
